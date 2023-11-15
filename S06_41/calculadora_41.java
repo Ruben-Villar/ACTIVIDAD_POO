@@ -11,7 +11,7 @@ package s06_41;
  */
 public class calculadora_41 {
        // Constructores con valores predeterminados
-    public calculadora_41(double num1, double num2) {
+    public calculadora_41(int num1, int num2) {
         System.out.println("Suma: " + sumar(num1, num2));
         System.out.println("Resta: " + restar(num1, num2));
         System.out.println("Multiplicación: " + multiplicar(num1, num2));

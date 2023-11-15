@@ -27,9 +27,9 @@ public class S06_41 {
         //calculadora
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el primer número: ");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextInt();
         System.out.print("Ingrese el segundo número: ");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
         // Uso del constructor con valores predeterminados
         calculadora_41 calculadora = new calculadora_41(num1, num2);
     }
